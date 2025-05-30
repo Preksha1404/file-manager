@@ -14,7 +14,7 @@ const showingNavigationDropdown = ref(false);
         <div class="min-h-screen bg-gray-100 flex w-full gap-4">
             <Navigation />
             <main class="flex-1">
-                <div class="px-3 flex items-center justify-between w-full">
+                <div class="pr-4 flex items-center justify-between w-full">
                     <SearchForm />
                     <UserSettingsDropdown />
                 </div>
